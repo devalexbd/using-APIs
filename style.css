@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+}
+
+h1, h4 {
+    font-family: "Sedan SC", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#main-one {
+    display:flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    margin-top: 3vh;
+}
+
+@media (max-width:750px){
+    #main-one {
+        flex-wrap: wrap;
+    }
+}
+
+#main-two {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.segment {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    /* padding: 20px; */
+    border-radius: 50px;
+    width:45vw;
+}
+
+h1 {
+    margin: 0 0 0 0;
+}
+
+img {
+    height:200px;
+    border:2px black solid;
+    border-radius: 30px;
+    margin-top:20px;
+}
+
+.btn {
+    border-radius:10px;
+    width:100px;
+}
+
+#btn2 {
+    margin-top: 10px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+
+
+#ownseed-buttons button{
+    width:auto;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+#min, #max{
+    width:100px;
+}
+
+#seed-id {
+    margin-top: 0px;
+}
+
+@media (max-width:750px){
+    .segment {
+        /* flex-wrap: wrap; */
+        width: 100vw;
+    }
+    img {
+        margin-bottom: 10px;
+    }
+    h1 {
+        margin: 2vh 0 0 0;
+    }
+    h4 {
+        margin: 1vh 0 0 0;
+    }
+}
+
+a {
+    font-size: 2.2vh;
+    font-weight: 800;
+    text-decoration: none;
+    transition: 0.35s;
+}
+
+a:hover {
+    color: red;
+    font-size: 2.3vh;
+}

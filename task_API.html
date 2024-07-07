@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>TESTING APIs</h1>
+    <div id="main-one">
+        <div class="segment">
+            <h1>DOG</h1>
+            <h4></h4>
+            <h4>Click on buttons to modify image.</h4>
+            <div id="dog-buttons">
+                <button class="btn" id="btn-big">Make bigger</button>
+                <button class="btn" id="btn">New Dog</button>
+                <button class="btn" id="btn-small">Make smaller</button>
+            </div>
+            <button class="btn" id="btn2">Not a dog</button>
+            <img src="" alt="" id="image">
+        </div>
+    
+        <br>
+        <div class="segment">
+            <h1>LOREM PICSUM</h1>
+            <h4>Click the button to change the image.</h4>
+            <div>
+                <button class="btn" id="picsum-btn">New Picture</button>
+            </div>
+            <h4>Enter your own seed to generate an image.</h4>
+            <div id="ownseed-buttons">
+                <input type="text" id="own-seed" placeholder="Input your own seed...">
+                <button class="btn" id="picsum-btn2">Go</button>
+            </div>
+            <img src="" alt="" id="image2">
+            <p id="author"></p>
+            <p id="seed-id"></p>
+        </div>
+    </div>
+
+    <div id="main-two">
+        <br>
+        <h4>API - Application Programming Interface</h4>
+        <p>An API is a way that two or more pieces of software communicate with each other.</p>
+        <p>In this document, APIs have been used to grab random images from two different websites.</p>
+        <br>
+        <p><a href="http://alexbd.dev" target="_blank">alexbd.dev</a></p>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="picsum_script.js"></script>
+    <script src="anotherone.js"></script>
+</body>
+</html>
